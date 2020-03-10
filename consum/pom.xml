@@ -21,10 +21,10 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>com.springframework.com</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.springframework.com</groupId>-->
+            <!--<artifactId>spring-cloud-starter-eureka</artifactId>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -34,6 +34,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>1.4.0.RELEASE</version>
         </dependency>
 
         <!--断路器-->
@@ -45,6 +46,13 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.2.0.RELEASE</version>
         </dependency>
 
         <dependency>
