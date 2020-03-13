@@ -25,7 +25,6 @@ public class HelloController {
     private HelloService helloService;
 
     @Autowired
-    @Qualifier("com.cx.consum.client.TestClient")
     private TestClient testClient;
 
     @HystrixCommand(fallbackMethod = "hiError")
